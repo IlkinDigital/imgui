@@ -2,7 +2,7 @@ project "ImGui"
     kind "StaticLib"
     language "C++"
     cppdialect "C++17"
-    staticruntime "on"
+    staticruntime "off"
 
     targetdir ("../../../Binaries/" .. outputdir .. "/%{prj.name}")
     objdir ("../../../Binaries-Int/" .. outputdir .. "/%{prj.name}")
